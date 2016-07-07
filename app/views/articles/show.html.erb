@@ -2,14 +2,14 @@
 
 
 <p>
-    Title: <%= @article1.title %>
+    Title: <%= @article.title %>
 </p>
 
 <p>
-    Description: <%= @article1.description %>
+    Description: <%= @article.description %>
 </p>
 
-<p><%= link_to "Edit this article", edit_article_path(@article1) %>
+<p><%= link_to "Edit this article", edit_article_path(@article) %>
 </p>
 
 <%= link_to "Back to Main page", articles_path %>
