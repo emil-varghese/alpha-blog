@@ -1,2 +1,86 @@
+$navbar-default-bg: #085B1B;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover{
+    color: #FF3342;
+    text-decoration: none;
+}
+
+.center{
+    text-align:center;
+}
+
+.jumbotron{
+    background-image: asset-url('newcover.jpg');
+    background-size: cover;
+    height: 270px;
+}
+
+.jumbotron h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    
+}
+
+.btn-xlarge{
+    font-size: 1.7em;
+    background-color: green;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover{
+    color: #222;
+}
+
+footer small{
+    float: left;
+}
+
+footer ul{
+    float: right;
+    list-style: none;
+}
+
+footer ul li{
+    float: left;
+    margin-left: 15px;
+}
+
+.article-actions{
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+.article-body{
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.description {
+    margin-top: 0;
+}
