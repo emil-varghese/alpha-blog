@@ -1,11 +1,7 @@
 class PagesController < ApplicationController
     
-    def home
+    def new
         
-    end
-    
-    def about
-    
     end
     
 
